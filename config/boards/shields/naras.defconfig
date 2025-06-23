@@ -1,0 +1,6 @@
+if SHIELD_NARAS
+
+config ZMK_KEYBOARD_NAME
+	default "naras_left"
+
+endif
