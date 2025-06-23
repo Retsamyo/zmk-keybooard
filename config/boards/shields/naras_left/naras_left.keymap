@@ -21,11 +21,11 @@
 // | SHIFT |  Z  |  X  |  C   |  V   |  B   |   "["  |  |  "]"  |  N   |  M    |  ,    |  .   |   /   | SHIFT |
 //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
             bindings = <
-&kp ESC   &kp N1 &kp N2   &kp N3   &kp N4   &kp N5  &mo 2          
-&kp TAB   &kp Q  &kp W    &kp E    &kp R    &kp T           
-&kp LSHFT &kp A  &kp S    &kp D    &kp F    &kp G           
-&kp LCTRL &kp Z  &kp X    &kp C    &kp V    &kp B   
-                 &kp LALT &kp LGUI &mo 1    &kp SPACE
+&kp KP_ESC   &kp KP_N1 &kp KP_N2   &kp KP_N3   &kp KP_N4   &kp KP_N5  &mo 2          
+&kp KP_TAB   &kp KP_Q  &kp KP_W    &kp KP_E    &kp KP_R    &kp KP_T           
+&kp KP_LSHFT &kp KP_A  &kp KP_S    &kp KP_D    &kp KP_F    &kp KP_G           
+&kp KP_LCTRL &kp KP_Z  &kp KP_X    &kp KP_C    &kp KP_V    &kp KP_B   
+                 &kp KP_LALT &kp KP_LGUI &mo 1    &kp KP_SPACE
             >;
         };
 
@@ -38,8 +38,8 @@
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
 &bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2     
-&kp F1     &kp F2           &kp F3            &kp F4           
-&kp GRAVE  &kp EXCL         &kp AT            &kp HASH         
+&kp KP_F1     &kp KP_F2           &kp KP_F3            &kp KP_F4           
+&kp KP_GRAVE  &kp KP_EXCL         &kp KP_AT            &kp KP_HASH         
 &trans     &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG
                                               &trans           
             >;
@@ -55,9 +55,9 @@
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
 &trans    &trans &trans &trans  &trans  &trans           
-&kp GRAVE &kp N1 &kp N2 &kp N3  &kp N4  &kp N5           
-&kp F1    &kp F2 &kp F3 &kp F4  &kp F5  &kp F6           
-&kp F7    &kp F8 &kp F9 &kp F10 &kp F11 &kp F12   &trans 
+&kp KP_GRAVE &kp KP_N1 &kp KP_N2 &kp KP_N3  &kp KP_N4  &kp KP_N5           
+&kp KP_F1    &kp KP_F2 &kp KP_F3 &kp KP_F4  &kp KP_F5  &kp KP_F6           
+&kp KP_F7    &kp KP_F8 &kp KP_F9 &kp KP_F10 &kp KP_F11 &kp KP_F12   &trans 
                         &trans  &trans  &trans    &trans 
             >;
         };
