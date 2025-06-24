@@ -28,7 +28,5 @@
                  &kp LALT &kp LGUI &mo 1    &kp SPACE
             >;
         };
-
-        };
     };
 };
