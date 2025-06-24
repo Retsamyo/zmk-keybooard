@@ -22,10 +22,10 @@
 //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
             bindings = <
 &kp ESC   &kp N1 &kp N2   &kp N3   &kp N4   &kp N5  &mo 2          
-&kp TAB   &kp Q  &kp W    &kp E    &kp R    &kp T   &trans
-&kp LSHFT &kp A  &kp S    &kp D    &kp F    &kp G   &trans
-&kp LCTRL &kp Z  &kp X    &kp C    &kp V    &kp B   &trans
-&trans    &trans &kp LALT &kp LGUI &mo 1    &kp SPACE &trans
+&kp TAB   &kp Q  &kp W    &kp E    &kp R    &kp T           
+&kp LSHFT &kp A  &kp S    &kp D    &kp F    &kp G           
+&kp LCTRL &kp Z  &kp X    &kp C    &kp V    &kp B   
+                 &kp LALT &kp LGUI &mo 1    &kp SPACE
             >;
         };
 
